@@ -6,4 +6,4 @@ if number_one > number_two:
 elif number_two > number_one:
     print("The second number is larger. ")
 else:
-    print("I said enter different numbers! These are the same number")
+    print("I said enter different numbers! These are the same number. ")
