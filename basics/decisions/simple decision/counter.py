@@ -1,4 +1,3 @@
-
 age = int(input("How old are you? "))
 def test_function(set_age=40):
     global age
@@ -9,5 +8,3 @@ def test_function(set_age=40):
 
 if test_function() == False:
     print("You're not Old!")
-
-
