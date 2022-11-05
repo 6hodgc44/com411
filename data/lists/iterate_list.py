@@ -1,14 +1,14 @@
-def direction():
+def get_direction():
     directions = ["Move Forward", "Move Backward", "Turn Left", "Turn Right"]
     return directions
 
 
 def menu():
     print("Please select a direction:")
-    directions = direction()
+    directions = get_direction()
     for items in range(len(directions)):
-        directions = directions[items]
-        print(f" {items}: {directions}")
+        direction = directions[items]  # 'direction' vs 'directions'
+        print(f" {items}: {direction}")
 
 
 menu()
