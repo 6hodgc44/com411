@@ -12,6 +12,8 @@ if name == "Lee":
         print(f"Great to have you in the shop today {name}.")
 else:
     print(f"Good to have you in the shop today {name}.")
+
+
 def menu():
     print()
     print("Here is today's menu:")
@@ -27,7 +29,8 @@ def menu():
 menu()
 option = input()
 print()
-print(f"Thanks for your custom {name}, is there anything else you'd like, or is it just the {option}?\nHere's the menu again:")
+print(f"""Thanks for your custom {name}, is there anything else you'd like, or is it just the {option}?
+Here's the menu again:""")
 menu()
 option2 = input()
 print()
@@ -41,4 +44,3 @@ if option2 == "McMuffin" or option2 == "Breakfast Roll" or option2 == "Steak Pie
         print(f"Thanks, your {option}, and your {option2} are coming right up!")
 else:
     print(f"Okay, just the one meal. Your {option} is coming right up!")
-
